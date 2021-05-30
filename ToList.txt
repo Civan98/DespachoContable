@@ -1,3 +1,10 @@
 -Desplegar app a heroku
 -Copiar diseño del video
 -Conectar a la BD
+
+
+**desplegar**
+1.- Crear repo y subilo ah´´i con el index por fuera
+2.- Instalar composer en la PC
+3.- Correr comando composer update y composer require php:~7
+4.- crear procfile para heroku y hacer push
