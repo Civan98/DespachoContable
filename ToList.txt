@@ -1,0 +1,3 @@
+-Desplegar app a heroku
+-Copiar diseño del video
+-Conectar a la BD
