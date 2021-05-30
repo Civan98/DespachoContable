@@ -1,5 +1,5 @@
 <?php
-require('vendor/autoload.php');
+
 $nombre    = $_POST['nombre'];
 $apellidos = $_POST['apellidos'];
 $correo    = $_POST['correo'];
