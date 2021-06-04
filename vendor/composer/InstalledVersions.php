@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => 'ecb3877f202e40a61f3128628de583445519eb71',
+    'reference' => '89bd4a9cf7dd39784ccafe7a9bd10da0070aa84d',
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +44,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => 'ecb3877f202e40a61f3128628de583445519eb71',
+      'reference' => '89bd4a9cf7dd39784ccafe7a9bd10da0070aa84d',
     ),
     'pimple/pimple' => 
     array (

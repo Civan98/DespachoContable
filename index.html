@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho Contable</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <section>
+        <img src="img/contador.jpg" class="mosque" alt="contador">
+        <header>
+            <a href="#" class="logo">Despacho Contable</a>
+            <div class="toggle"></div>
+            <ul class="navigation">
+                <li><a href="#" style="--i:1;" class="active">Inicio</a></li>
+                <li><a href="#" style="--i:2;">¿Quiénes somos?</a></li>
+                <li><a href="#" style="--i:3;">Servicios</a></li>
+                <li><a href="#" style="--i:4;">Contacto</a></li>
+                <li><a href="php/cita.php" style="--i:5;">Agendar Cita</a></li>
+            </ul>
+        </header>
+
+        <div class="content">
+            <div class="textBox">
+                <h2>Contreras y asociados</h2>
+                <p>En todas las actividades económicas son necesarios los servicios de un Contador Público que nos
+                    oriente y asesore.
+                    Existen temas específicos que solo un especialista en asuntos fiscales es capaz de tratar,
+                    salvaguardando su patrimonio y brindándole la tranquilidad que usted necesita.</p>
+                <a href="#">Leer más</a>
+            </div>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#" style="--i:12;"><img src="img/facebook.png" alt="facebook"></a></li>
+            <li><a href="#" style="--i:13;"><img src="img/twitter.png" alt="twiter"></a></li>
+            <li><a href="#" style="--i:14;"><img src="img/instagram.png" alt="instagram"></a></li>
+        </ul>
+    </section>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle');
+        const menuNavigation = document.querySelector('.navigation');
+        menuToggle.onclick = function () {
+            menuToggle.classList.toggle('active');
+            menuNavigation.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
