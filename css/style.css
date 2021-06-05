@@ -208,6 +208,7 @@ header ul li a:hover
     animation: fade_in 1s linear forwards;
     animation-delay: 3.5s;
 }
+
 @keyframes fade_in
 {
     0%
