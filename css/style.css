@@ -298,5 +298,13 @@ header ul li a:hover
     .mosque
     {
         opacity: 0.4 !important; 
+        animation: none;
+    }
+}
+@media(max-width: 450px)
+{
+    .logo
+    {
+       width: 300px;
     }
 }

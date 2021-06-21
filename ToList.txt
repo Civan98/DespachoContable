@@ -1,6 +1,8 @@
--Desplegar app a heroku
--Copiar diseño del video
--Conectar a la BD
+-hacer validación de la fecha 
+-Generar el folio de la cita
+-Conectar a la BD 
+-Mandar correo de confirmación de cita
+-diseño a "agendar cita"
 
 
 **desplegar**
