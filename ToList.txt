@@ -1,5 +1,11 @@
 -hacer validación de la fecha 
 -Generar el folio de la cita
+    {Primeras dos letras del nombre
+    Dos ultimas letras del segundo apellido
+    fecha sin guiones (año solo último 2 digitos)
+    dos últimos digitos del cel
+    ejem: IVAS22062163}
+
 -Conectar a la BD 
 -Mandar correo de confirmación de cita
 -diseño a "agendar cita"

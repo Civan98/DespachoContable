@@ -35,7 +35,7 @@
 
                     <input type="email" name="correo" placeholder="Correo" required><br>
 
-                    <input type="number" name="celular" placeholder="Número de celular" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"><br>
+                    <input type="number" name="celular" minlength="10" placeholder="Número de celular" required maxlength="10" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"><br>
 
                     <select name="hora" id="hora" disabled>
                         <option value="9">9:00 AM</option>

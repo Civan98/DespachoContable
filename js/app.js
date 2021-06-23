@@ -64,7 +64,10 @@ const esBisiesto = (year) => {
 let diasHTML = document.getElementById("dias");
 let mesHTML = document.getElementById("mes");
 
-//Sacar fecha seleccionada
+//Sacar fecha seleccionada se crea este input oculto para mandarlo por el form
+var inputFecha = document.createElement('input');
+    inputFecha.name = 'fechaSelect';
+    inputFecha.type = 'hidden';
 function fechaCita(index) {
     var formulario = document.getElementById('formulario');
     var aceptar = document.getElementById('aceptar');
@@ -72,13 +75,7 @@ function fechaCita(index) {
     let fechaHoy = new Date();
     let fechaSelect = new Date(anioActu,mesActu,index);//pasa la fecha seleccionada a formato de fecha para comparar
 
-    console.log(fechaHoy);
-    console.log(fechaSelect);
-
     //se crea el input oculto que contendra la fecha al pulsar un dia del calendario que es un boton
-    var inputFecha = document.createElement('input');
-    inputFecha.name = 'fechaSelect';
-    inputFecha.type = 'hidden';
     inputFecha.value = fecha;
     formulario.appendChild(inputFecha); //asigna el input a ese formulario
 
